@@ -76,7 +76,7 @@ class GamePlay:
         self._board.draw()
         
 
-    def _update_game_state(self):
+    def update_game_state(self):
         self._game_state = self._board.get_state(self._players[self._active_player].piece)
         return self._game_state
     
@@ -105,7 +105,7 @@ class GamePlay:
             return
         piece = self._players[self._active_player].piece
         if self._board.place_piece(piece):
-            self._update_game_state()
+            self.update_game_state()
             if self._game_state == GameStates.IN_PLAY:
                 self._next_player()
             self.redraw()

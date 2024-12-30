@@ -7,7 +7,7 @@ This is a basic implementation of the tic-tac-toe game which runs within the ter
 1. Ensure you have Python installed on your system. You can download it from [python.org](https://www.python.org/).
 2. Clone this repository to your local machine using:
     ```sh
-    git clone <repository-url>
+    git clone https://github.com/alquindev/py-tic-tac-toe.git  
     ```
 3. Navigate to the project directory:
     ```sh
@@ -41,18 +41,17 @@ This is a basic implementation of the tic-tac-toe game which runs within the ter
 
 ## API Documentation
 ### Classes
-- [Board](http://_vscodecontentref_/2): Manages the game board and its state.
-- [GamePlay](http://_vscodecontentref_/3): Handles the game logic and player interactions.
-- [Player](http://_vscodecontentref_/4): Represents a player in the game.
-- [StateManager](http://_vscodecontentref_/5): Manages the game states.
-- [Components](http://_vscodecontentref_/6): Contains enums and data classes used in the game.
+- [Board](https://github.com/alquindev/py-tic-tac-toe/blob/main/Board.py): Manages the game board and its state.
+- [GamePlay](https://github.com/alquindev/py-tic-tac-toe/blob/main/GamePlay.py): Handles the game logic and player interactions.
+- [Player](https://github.com/alquindev/py-tic-tac-toe/blob/main/Player.py): Represents a player in the game.
+- [Components](https://github.com/alquindev/py-tic-tac-toe/blob/main/Components.py): Contains enums and data classes used in the game.
 
 ### Methods
-- [Board.draw()](http://_vscodecontentref_/7): Draws the current state of the board.
-- [GamePlay.start()](http://_vscodecontentref_/8): Starts the game and listens for player inputs.
-- [GamePlay.restart()](http://_vscodecontentref_/9): Restarts the game.
-- [GamePlay.redraw()](http://_vscodecontentref_/10): Redraws the game board.
-- [GamePlay._update_game_state()](http://_vscodecontentref_/11): Updates the game state based on the current board.
+- [Board.draw()](https://github.com/alquindev/py-tic-tac-toe/blob/main/Board.py#L160): Draws the current state of the board.
+- [GamePlay.start()](https://github.com/alquindev/py-tic-tac-toe/blob/main/GamePlay.py#L48): Starts the game and listens for player inputs.
+- [GamePlay.restart()](https://github.com/alquindev/py-tic-tac-toe/blob/main/GamePlay.py#L65): Restarts the game.
+- [GamePlay.redraw()](https://github.com/alquindev/py-tic-tac-toe/blob/main/GamePlay.py#L73): Redraws the game board.
+- [GamePlay.update_game_state()](https://github.com/alquindev/py-tic-tac-toe/blob/main/GamePlay.py#L79): Updates the game state based on the current board.
 
 ## Troubleshooting
 ### Common Issues
@@ -61,7 +60,7 @@ This is a basic implementation of the tic-tac-toe game which runs within the ter
 
 ## FAQ
 ### How do I change the size of the board?
-- The board size is currently fixed at 3x3. You can modify the [Board](http://_vscodecontentref_/12) class in [Board.py](http://_vscodecontentref_/13) to change the dimensions.
+- The board size is currently fixed at 3x3. You can modify the [Board](https://github.com/alquindev/py-tic-tac-toe/blob/main/Board.py) class in [Board.py](https://github.com/alquindev/py-tic-tac-toe/blob/main/Board.py#L92) to change the dimensions.
 
 ### Can I play against a computer?
 - This implementation only supports two human players. You can extend the game logic to add AI functionality.
